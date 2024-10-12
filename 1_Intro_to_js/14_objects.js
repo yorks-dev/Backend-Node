@@ -34,3 +34,8 @@ delete student1["mark"]
 delete student1.mark    // both works
 
 console.log(student1)
+
+// Destructuring / Unpacking 
+for(var [key, value] of Object.entries(student1)){
+    console.log(key,value)
+}

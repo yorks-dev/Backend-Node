@@ -1,11 +1,11 @@
 function is_prime(number) {
-    if(number <= 1){
-        return false
-    }
+if(number <= 1){
+    return false
+}
 
     let is_div = false      // flag
     for(let i = 2; i <= Math.floor(number/2); i++)
-        if(number % i == 0)
+    if(number % i == 0)
             return false
     return true
 }   

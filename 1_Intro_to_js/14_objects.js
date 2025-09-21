@@ -9,11 +9,11 @@ let student1 = {
 }
 
 // One way of doing it
-for(let item of Object.keys(student1)){
+for(let item of Object.keys(student1)){     // student1.keys does not exist.
     console.log(`${item} : ${student1[item]}`)
 }
 
-// For each works for arrays
+// For each works for arrays (Using Lambdas)
 Object.keys(student1).forEach((keys) => {
     console.log(keys, student1[keys])
 })

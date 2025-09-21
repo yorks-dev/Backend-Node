@@ -35,4 +35,4 @@ console.log(arr)
 // Simple length based sorting
 var arr2 = ["Ayush", "Kyke", "Bilal", "Don"]
 arr2.sort((a, b) => a.length - b.length)
-console.log(arr2)
+console.log(arr2) 

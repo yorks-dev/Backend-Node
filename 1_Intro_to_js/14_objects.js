@@ -8,7 +8,12 @@ let student1 = {
     mark : 50
 }
 
-// One way of doing it
+console.log(Object.keys(student1));
+console.log(Object.values(student1));
+
+
+// [ITERATION] 
+// One way of doing it 
 for(let item of Object.keys(student1)){     // student1.keys does not exist.
     console.log(`${item} : ${student1[item]}`)
 }
@@ -17,6 +22,11 @@ for(let item of Object.keys(student1)){     // student1.keys does not exist.
 Object.keys(student1).forEach((keys) => {
     console.log(keys, student1[keys])
 })
+
+// ITERATING OVER KEYS for .. in 
+for (const property in student1){
+    console.log(property) // loops over keys
+}
 
 // Change values
 student1.name = "Lugen"
@@ -39,3 +49,6 @@ console.log(student1)
 for(var [key, value] of Object.entries(student1)){
     console.log(key,value)
 }
+
+// Object.entries() gives us [key, value] inside an array 
+console.log(Object.entries(student1));

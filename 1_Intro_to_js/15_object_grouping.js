@@ -20,9 +20,9 @@ console.log(array1_obj)
 
 // what if we use "in" with array
 var array2 = [-1, -2, -2, -3]
-console.log(-2 in array2)  // it will return false, as -2 in ARRAY checks if thw property -2 exists.
+console.log(-2 in array2)  // it will return false, as -2 in ARRAY checks if the property -2 exists.
 // here the property is index, so it checks if index -2 exists but it doesnot cause array has +ve index
-console.log(2 in array2)  // it will return true as 2 is a valisd index for that array
+console.log(2 in array2)  // it will return true as 2 is a valid index for that array
 
 
 

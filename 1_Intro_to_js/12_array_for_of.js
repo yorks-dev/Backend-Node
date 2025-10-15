@@ -21,3 +21,7 @@ list = 'AYUSH'
 for(let a of list){
     console.log(a)
 }
+
+for (const i in list){
+    console.log(i)      // iterates over the index not the list elements.
+}

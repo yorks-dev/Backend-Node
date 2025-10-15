@@ -3,7 +3,7 @@ let people = [
     { name: 'Bob', age: 25, height: 70 },
     { name: 'Charlie', age: 30, height: 70 },
     { name: 'David', age: 25, height: 68 }
-];
+]; 
 
 people.sort((a, b) => {
     
